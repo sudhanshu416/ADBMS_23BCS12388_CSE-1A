@@ -1,4 +1,4 @@
-/*
+
 -- organizational hierarchy explorer
 -- create
 CREATE TABLE TBL_EMPLOYEE (
@@ -46,7 +46,7 @@ TBL_EMPLOYEE as e
 left outer join 
 TBL_EMPLOYEE as ep
 on e.managerid=ep.empId;
-*/
+
 
 
 
